@@ -1,1 +1,1 @@
-# HIT238-Sprint-3
+# External libraries used in this prototype: Bootstrap, OpenWeatherMap.
