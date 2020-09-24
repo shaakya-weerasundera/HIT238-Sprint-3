@@ -1,7 +1,7 @@
-var cacheName = 'hello-pwa';
+var cacheName = 'hit238-sprint-3';
 var filesToCache = [
   '/',
-  '/main-nav.html',
+  '/index.html',
   '/styles/explore.css',
   '/scripts/explore.js',
   '/scripts/dest-requests.js',
