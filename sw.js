@@ -1,10 +1,10 @@
 var cacheName = 'hit238-sprint-3';
 var filesToCache = [
   '/hit238-sprint-3',
-  '/index.html',
-  '/styles/explore.css',
-  '/scripts/explore.js',
-  '/scripts/dest-requests.js',
+  '/hit238-sprint-3/index.html',
+  '/hit238-sprint-3/styles/explore.css',
+  '/hit238-sprint-3/scripts/explore.js',
+  '/hit238-sprint-3/scripts/dest-requests.js',
 ];
 
 /* Start the service worker and cache all of the app's content */
