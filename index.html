@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel App Prototype</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
-  <body>
-    <h1 class="header">Welcome to the Travel App</h1>
-    <h3 class="caption">Discover, Find, Travel</h3>
-    <div class="container">
-      <h1 class="text-center title">Explore</h1>
+    <link rel="stylesheet" href="styles/explore.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="styles/images/icons/plane-96x96.png">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">TravelApp</label>
+        <ul>
+            <li><a class="current" href="#">Explore</a></li>
+            <li><a href="#">Book</a></li>
+            <li><a href="#">Map</a></li>
+            <li><a href="#">Update</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <section>
+    <div class="container"></div>
       <form class="search-loaction">
         <input
           type="text"
@@ -25,46 +40,38 @@
           autocomplete="off"
           class="form-control text-muted form-rounded p-4 shadow-sm"
         />
-      </form>
-
-      <div class="card rounded my-3 shadow-lg d-none back-card">
+      </form>      
         <div class="card-top text-center">
           <div class="city-name my-3">
-            <p></p>
+            <h1 class="search-head">Search any Place...</h1>
           </div>
-          <img src="styles/images/logo.png" alt="" class="card-img-top time" />
         </div>
 
         <div class="card-body">
           <div class="card-mid row">
             <div class="col-8 text-center temp">
-              <span></span>
             </div>
             <div class="col-4 condition-temp">
-              <p class="condition">Thunder Storm</p>
-              <p class="high">30&deg;C</p>
-              <p class="low">27&deg;C</p>
+              <p class="condition"></p>
+              <p class="high"></p>
+              <p class="low"></p>
             </div>
           </div>
 
           <div class="icon-container card shadow mx-auto">
-            <img src="styles/images/logo.png" alt="" />
+            
           </div>
           <div class="card-bottom px-5 py-4 row">
             <div class="col text-center">
-              <p>30&deg;C</p>
-              <span>Feels Like</span>
+              <p></p>
             </div>
             <div class="col text-center">
-              <p>55%</p>
-              <span>Humidity</span>
+              <p></p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
+        </div>        
+    </section>
+    <script src="scripts/explore.js"></script>
     <script src="scripts/dest-requests.js"></script>
-    <script src="scripts/main.js"></script>
-  </body>
+</body>
 </html>
