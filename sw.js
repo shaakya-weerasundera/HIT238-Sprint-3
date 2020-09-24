@@ -1,6 +1,6 @@
 var cacheName = 'hit238-sprint-3';
 var filesToCache = [
-  '/',
+  '/hit238-sprint-3',
   '/index.html',
   '/styles/explore.css',
   '/scripts/explore.js',
