@@ -2,12 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JavaScript - To Do List</title>
+    <title>Plan Your Holiday!</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
     <link rel="stylesheet" href="styles/font-awesome.css">
     <link rel="stylesheet" href="styles/todo.css">
+    <link rel="stylesheet" href="styles/explore.css">
 </head>
 <body>
+    <nav>
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Travel Now</label>
+        <ul>
+            <li><a href="index.html">Explore</a></li>
+            <li><a class="current" href="plan.html">Plan</a></li>
+            <li><a href="#">Map</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeqTRw3OLmGge-mrESZ-K_gz6gTTyy2rX8s8VardLIGi0ufYg/viewform?usp=sf_link">Feedback</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1 class="plan-head">What do you want to do?</h1>
     <div class="container">
         <div class="header">
             <div class="clear">
@@ -17,19 +32,18 @@
         </div>
         <div class="content">
             <ul id="list">
-               <!-- 
-                <li class="item">
-                    <i class="fa fa-circle-thin co" job="complete" id="0"></i>
-                    <p class="text">Drink Coffee</p>
-                    <i class="fa fa-trash-o de" job="delete" id="0"></i> 
-                </li> -->
+               <!-- This will be where the List of items is
+               -->
             </ul>
         </div>
         <div class="add-to-do">
             <i class="fa fa-plus-circle"></i>
             <input type="text" id="input" placeholder="Add a to-do">
         </div>
+    </section>
     </div>
+
     <script src="scripts/todo.js"></script>
 </body>
 </html>
+
