@@ -112,8 +112,14 @@ a.current,a:hover {
         left: 0;
     }
 }
-section {
+.explore {
     background: url('images/background.jpg') no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+.plan {
+    background: url('images/plan.jpg') no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
